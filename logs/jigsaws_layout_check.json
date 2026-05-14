@@ -1,0 +1,12 @@
+{
+  "root": "/Users/maziang/Documents/方案一/data/public_imu/JIGSAWS",
+  "mode": "video_fallback",
+  "layout": {
+    "kinematics_file_count": 0,
+    "transcriptions_file_count": 0,
+    "paired_trials": 0,
+    "video_file_count": 206,
+    "has_official_like_kinematics": false
+  },
+  "next_step": "Import official archives (or provide official links) and rerun verify."
+}

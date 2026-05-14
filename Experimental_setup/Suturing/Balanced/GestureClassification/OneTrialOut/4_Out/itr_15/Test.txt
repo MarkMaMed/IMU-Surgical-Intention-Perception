@@ -1,0 +1,17 @@
+Suturing_B004_000001_000046.txt           G1
+Suturing_B004_000104_000128.txt           G2
+Suturing_B004_001016_001417.txt           G2
+Suturing_B004_001723_001799.txt           G2
+Suturing_B004_002565_002860.txt           G2
+Suturing_B004_000129_000696.txt           G3
+Suturing_B004_001800_002186.txt           G3
+Suturing_B004_000877_001015.txt           G4
+Suturing_B004_001604_001722.txt           G4
+Suturing_B004_002327_002429.txt           G4
+Suturing_B004_000047_000103.txt           G5
+Suturing_B004_000697_000876.txt           G6
+Suturing_B004_001418_001603.txt           G6
+Suturing_B004_002187_002326.txt           G6
+Suturing_B004_002861_003069.txt           G6
+Suturing_B004_002430_002564.txt           G8
+Suturing_B004_003070_003257.txt           G11

@@ -1,0 +1,97 @@
+{
+  "loaded_sequences": 40,
+  "window_count": 25783,
+  "class_distribution": {
+    "FINE_OPERATE": 6422,
+    "IDLE": 1335,
+    "PREPARE_LOCK": 16830,
+    "PREPARE_UNLOCK": 1196
+  },
+  "labels": [
+    "FINE_OPERATE",
+    "IDLE",
+    "PREPARE_LOCK",
+    "PREPARE_UNLOCK"
+  ],
+  "classification_report": {
+    "FINE_OPERATE": {
+      "precision": 0.9221466364323507,
+      "recall": 0.9494163424124513,
+      "f1-score": 0.9355828220858896,
+      "support": 1285.0
+    },
+    "IDLE": {
+      "precision": 0.8507462686567164,
+      "recall": 0.8539325842696629,
+      "f1-score": 0.8523364485981308,
+      "support": 267.0
+    },
+    "PREPARE_LOCK": {
+      "precision": 0.9674475205354427,
+      "recall": 0.9447415329768271,
+      "f1-score": 0.9559597174207125,
+      "support": 3366.0
+    },
+    "PREPARE_UNLOCK": {
+      "precision": 0.8100358422939068,
+      "recall": 0.9456066945606695,
+      "f1-score": 0.8725868725868726,
+      "support": 239.0
+    },
+    "accuracy": 0.9412449098312973,
+    "macro avg": {
+      "precision": 0.8875940669796041,
+      "recall": 0.9234242885549028,
+      "f1-score": 0.9041164651729015,
+      "support": 5157.0
+    },
+    "weighted avg": {
+      "precision": 0.942822300170149,
+      "recall": 0.9412449098312973,
+      "f1-score": 0.9416533700877352,
+      "support": 5157.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1220,
+      0,
+      65,
+      0
+    ],
+    [
+      0,
+      228,
+      31,
+      8
+    ],
+    [
+      103,
+      38,
+      3180,
+      45
+    ],
+    [
+      0,
+      2,
+      11,
+      226
+    ]
+  ],
+  "dataset_accuracy": {
+    "NinaPro": 0.9483076923076923,
+    "PAMAP2": 0.9702315325248071,
+    "Opportunity": 0.8902439024390244,
+    "JIGSAWS": 1.0
+  },
+  "signal_source_distribution": {
+    "video_fallback": 118,
+    "raw": 25665
+  },
+  "dataset_signal_source_distribution": {
+    "JIGSAWS::video_fallback": 118,
+    "Opportunity::raw": 4931,
+    "NinaPro::raw": 16200,
+    "PAMAP2::raw": 4534
+  }
+}

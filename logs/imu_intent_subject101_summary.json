@@ -1,0 +1,10 @@
+{
+  "input": "data/public_imu/PAMAP2_Dataset/Protocol/subject101.csv",
+  "window_size": 128,
+  "stride": 32,
+  "prediction_count": 11760,
+  "intent_count": {
+    "IDLE": 2225,
+    "PREPARE_LOCK": 9535
+  }
+}

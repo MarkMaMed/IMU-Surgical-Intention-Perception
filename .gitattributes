@@ -1,0 +1,4 @@
+data/public_imu/tmp/jigsaws.zip filter=lfs diff=lfs merge=lfs -text
+data/public_imu/PAMAP2_Dataset/Protocol/subject101.csv filter=lfs diff=lfs merge=lfs -text
+data/public_imu/PAMAP2_Dataset/Protocol/subject102.csv filter=lfs diff=lfs merge=lfs -text
+models/jigsaws_intent_model_train_only.joblib filter=lfs diff=lfs merge=lfs -text

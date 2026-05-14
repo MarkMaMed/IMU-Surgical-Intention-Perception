@@ -1,0 +1,5 @@
+Suturing_E001_000010_003593.txt           17
+Suturing_E002_000023_002948.txt           20
+Suturing_E003_000060_002575.txt           19
+Suturing_E004_000057_002926.txt           19
+Suturing_E005_000001_002483.txt           19

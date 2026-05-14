@@ -1,0 +1,5 @@
+Suturing_C001_000026_003180.txt           26
+Suturing_C002_000001_003267.txt           20
+Suturing_C003_000013_003060.txt           26
+Suturing_C004_000002_002450.txt           30
+Suturing_C005_000024_002550.txt           17

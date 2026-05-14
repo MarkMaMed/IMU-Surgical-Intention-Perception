@@ -1,0 +1,10 @@
+{
+  "kinematics": "Suturing/kinematics/AllGestures/Suturing_B001.txt",
+  "task": "Suturing",
+  "windows": 110,
+  "decision_counts": {
+    "SUGGEST_LOCK": 56,
+    "SUGGEST_NO_LOCK": 54
+  },
+  "avg_proba_lock": 0.8142067190324512
+}

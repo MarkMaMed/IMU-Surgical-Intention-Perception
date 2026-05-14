@@ -1,0 +1,11 @@
+Knot_Tying_D001_000041_000170.txt           G1
+Knot_Tying_D001_001277_001348.txt           G11
+Knot_Tying_D001_000171_000237.txt           G12
+Knot_Tying_D001_000832_000989.txt           G12
+Knot_Tying_D001_000238_000310.txt           G13
+Knot_Tying_D001_000990_001120.txt           G13
+Knot_Tying_D001_000311_000624.txt           G14
+Knot_Tying_D001_000735_000831.txt           G14
+Knot_Tying_D001_001121_001174.txt           G14
+Knot_Tying_D001_000625_000734.txt           G15
+Knot_Tying_D001_001175_001276.txt           G15

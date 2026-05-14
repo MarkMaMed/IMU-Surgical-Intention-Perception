@@ -1,0 +1,76 @@
+[dataset]
+root = "."
+tasks = ["Knot_Tying", "Needle_Passing", "Suturing"]
+kinematics_subdir = "kinematics/AllGestures"
+transcriptions_subdir = "transcriptions"
+sample_rate_hz = 30.0
+
+[window]
+size = 150
+stride = 50
+majority_ratio = 0.6
+
+[labeling]
+auto_discover_lock_gestures = true
+lock_quantile = 0.45
+min_windows_per_gesture = 50
+manual_lock_gestures = ["G2", "G3", "G6", "G8"]
+manual_no_lock_gestures = ["G1", "G4", "G5", "G9", "G10", "G11", "G12", "G13", "G14", "G15"]
+
+[model]
+random_seed = 42
+test_size = 0.25
+use_task_context = true
+candidate_models = ["extra_trees", "xgboost", "random_forest"]
+
+rf_estimators = 500
+rf_max_depth = 22
+rf_min_samples_leaf = 2
+rf_max_features = "sqrt"
+
+et_estimators = 500
+et_max_depth = "none"
+et_min_samples_leaf = 2
+et_max_features = "sqrt"
+
+xgb_estimators = 800
+xgb_max_depth = 6
+xgb_learning_rate = 0.04
+xgb_subsample = 0.9
+xgb_colsample_bytree = 0.8
+xgb_min_child_weight = 1.0
+xgb_reg_lambda = 1.0
+
+[ensemble]
+enable = true
+et_seeds = [31, 41, 42, 53]
+rf_seeds = [44, 45]
+weights = [0.22, 0.22, 0.22, 0.22, 0.06, 0.06]
+classification_threshold = 0.5
+
+[cross_validation]
+strategy = "group_kfold"
+n_splits = 4
+threshold_min = 0.30
+threshold_max = 0.70
+threshold_points = 81
+
+[postprocess]
+enable = true
+methods = ["none", "ema"]
+ema_alpha_min = 0.45
+ema_alpha_max = 0.75
+ema_alpha_points = 13
+
+[search]
+random_seed = 42
+rf_trials = 6
+et_trials = 14
+xgb_trials = 18
+ensemble_top_k = 8
+ensemble_max_members = 6
+ensemble_min_gain = 0.0001
+
+[decision]
+proba_lock_threshold = 0.58
+stable_velocity_percentile_from_lock = 75

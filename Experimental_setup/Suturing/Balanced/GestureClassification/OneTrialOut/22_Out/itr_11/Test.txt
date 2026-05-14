@@ -1,0 +1,17 @@
+Suturing_F002_000089_000147.txt           G2
+Suturing_F002_000687_000767.txt           G2
+Suturing_F002_001251_001336.txt           G2
+Suturing_F002_001682_001776.txt           G2
+Suturing_F002_000148_000427.txt           G3
+Suturing_F002_000768_001040.txt           G3
+Suturing_F002_001337_001522.txt           G3
+Suturing_F002_001777_002047.txt           G3
+Suturing_F002_000609_000686.txt           G4
+Suturing_F002_001129_001250.txt           G4
+Suturing_F002_001599_001681.txt           G4
+Suturing_F002_000428_000608.txt           G6
+Suturing_F002_001041_001128.txt           G6
+Suturing_F002_001523_001598.txt           G6
+Suturing_F002_002048_002103.txt           G6
+Suturing_F002_000001_000088.txt           G8
+Suturing_F002_002104_002375.txt           G11

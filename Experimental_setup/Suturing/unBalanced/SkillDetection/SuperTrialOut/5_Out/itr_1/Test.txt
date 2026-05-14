@@ -1,0 +1,8 @@
+Suturing_B005_000001_002848.txt           12
+Suturing_C005_000024_002550.txt           17
+Suturing_D005_000021_001779.txt           15
+Suturing_E005_000001_002483.txt           19
+Suturing_F005_000011_002039.txt           24
+Suturing_G005_000001_002454.txt           19
+Suturing_H005_000001_003279.txt           17
+Suturing_I005_000073_003773.txt           16

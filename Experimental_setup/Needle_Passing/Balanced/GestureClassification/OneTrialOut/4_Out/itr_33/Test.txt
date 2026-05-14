@@ -1,0 +1,17 @@
+Needle_Passing_B004_000031_000185.txt           G1
+Needle_Passing_B004_000186_000515.txt           G2
+Needle_Passing_B004_000981_001199.txt           G2
+Needle_Passing_B004_001487_001666.txt           G2
+Needle_Passing_B004_002009_002316.txt           G2
+Needle_Passing_B004_000516_000686.txt           G3
+Needle_Passing_B004_001200_001282.txt           G3
+Needle_Passing_B004_001667_001745.txt           G3
+Needle_Passing_B004_002317_002404.txt           G3
+Needle_Passing_B004_000873_000980.txt           G4
+Needle_Passing_B004_001393_001486.txt           G4
+Needle_Passing_B004_001892_002008.txt           G4
+Needle_Passing_B004_000687_000872.txt           G6
+Needle_Passing_B004_001283_001392.txt           G6
+Needle_Passing_B004_001746_001891.txt           G6
+Needle_Passing_B004_002405_002625.txt           G6
+Needle_Passing_B004_002626_002780.txt           G11

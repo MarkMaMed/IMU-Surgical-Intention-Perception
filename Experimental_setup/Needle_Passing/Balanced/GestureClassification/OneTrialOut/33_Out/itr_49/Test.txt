@@ -1,0 +1,9 @@
+Needle_Passing_H004_000001_000060.txt           G1
+Needle_Passing_H004_000141_000329.txt           G2
+Needle_Passing_H004_000821_003480.txt           G2
+Needle_Passing_H004_000330_000407.txt           G3
+Needle_Passing_H004_000725_000820.txt           G4
+Needle_Passing_H004_000061_000140.txt           G5
+Needle_Passing_H004_000532_000682.txt           G5
+Needle_Passing_H004_000408_000531.txt           G6
+Needle_Passing_H004_000683_000724.txt           G6

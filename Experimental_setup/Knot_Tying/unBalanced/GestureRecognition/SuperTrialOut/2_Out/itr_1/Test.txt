@@ -1,0 +1,7 @@
+Knot_Tying_B002_000037_001260.txt           Knot_Tying_B002.txt
+Knot_Tying_C002_000028_001000.txt           Knot_Tying_C002.txt
+Knot_Tying_D002_000021_001227.txt           Knot_Tying_D002.txt
+Knot_Tying_E002_000040_001257.txt           Knot_Tying_E002.txt
+Knot_Tying_F002_000001_000984.txt           Knot_Tying_F002.txt
+Knot_Tying_G002_000001_002197.txt           Knot_Tying_G002.txt
+Knot_Tying_I002_000006_002350.txt           Knot_Tying_I002.txt

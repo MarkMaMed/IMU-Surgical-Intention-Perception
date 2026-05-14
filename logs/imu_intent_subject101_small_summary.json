@@ -1,0 +1,10 @@
+{
+  "input": "/Users/maziang/Documents/方案一/data/public_imu/PAMAP2_Dataset/Protocol/subject101_small.csv",
+  "window_size": 128,
+  "stride": 32,
+  "prediction_count": 934,
+  "intent_count": {
+    "IDLE": 90,
+    "PREPARE_LOCK": 844
+  }
+}

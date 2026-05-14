@@ -1,0 +1,1127 @@
+{
+  "loaded_trials": 103,
+  "window_count": 4042,
+  "tasks": [
+    "Knot_Tying",
+    "Needle_Passing",
+    "Suturing"
+  ],
+  "surgeons": [
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I"
+  ],
+  "lock_gestures": [
+    "G2",
+    "G3",
+    "G6",
+    "G8"
+  ],
+  "gesture_motion_stats": [
+    {
+      "major_gesture": "G10",
+      "windows": 33,
+      "median_global_vel": 0.035019323229789734,
+      "p75_global_vel": 0.044161632657051086,
+      "mean_micro_ratio": 0.8366488980229707,
+      "mean_large_ratio": 0.07373719533733664
+    },
+    {
+      "major_gesture": "G2",
+      "windows": 817,
+      "median_global_vel": 0.03843438997864723,
+      "p75_global_vel": 0.05204617604613304,
+      "mean_micro_ratio": 0.8296148127459275,
+      "mean_large_ratio": 0.07515315009941949
+    },
+    {
+      "major_gesture": "G1",
+      "windows": 62,
+      "median_global_vel": 0.04014895483851433,
+      "p75_global_vel": 0.056077323853969574,
+      "mean_micro_ratio": 0.8202604231948132,
+      "mean_large_ratio": 0.08030474812274245
+    },
+    {
+      "major_gesture": "G3",
+      "windows": 881,
+      "median_global_vel": 0.043829239904880524,
+      "p75_global_vel": 0.053968094289302826,
+      "mean_micro_ratio": 0.8264822616154613,
+      "mean_large_ratio": 0.0753148115701346
+    },
+    {
+      "major_gesture": "G14",
+      "windows": 155,
+      "median_global_vel": 0.046327169984579086,
+      "p75_global_vel": 0.0632827989757061,
+      "mean_micro_ratio": 0.8008466175180319,
+      "mean_large_ratio": 0.08856268729845831
+    },
+    {
+      "major_gesture": "G9",
+      "windows": 28,
+      "median_global_vel": 0.05012841522693634,
+      "p75_global_vel": 0.058786625042557716,
+      "mean_micro_ratio": 0.7888429126507545,
+      "mean_large_ratio": 0.09697166574153504
+    },
+    {
+      "major_gesture": "G15",
+      "windows": 316,
+      "median_global_vel": 0.051521532237529755,
+      "p75_global_vel": 0.06568221189081669,
+      "mean_micro_ratio": 0.7932326435620101,
+      "mean_large_ratio": 0.09360286654534561
+    },
+    {
+      "major_gesture": "G11",
+      "windows": 192,
+      "median_global_vel": 0.05272801220417023,
+      "p75_global_vel": 0.06812902167439461,
+      "mean_micro_ratio": 0.7819192092016954,
+      "mean_large_ratio": 0.09741110326150948
+    },
+    {
+      "major_gesture": "G8",
+      "windows": 258,
+      "median_global_vel": 0.05563580058515072,
+      "p75_global_vel": 0.0716472864151001,
+      "mean_micro_ratio": 0.7756349962623118,
+      "mean_large_ratio": 0.1006988655500152
+    },
+    {
+      "major_gesture": "G6",
+      "windows": 571,
+      "median_global_vel": 0.05700085312128067,
+      "p75_global_vel": 0.07227456942200661,
+      "mean_micro_ratio": 0.7812229933665368,
+      "mean_large_ratio": 0.09526826769671036
+    },
+    {
+      "major_gesture": "G4",
+      "windows": 325,
+      "median_global_vel": 0.057999804615974426,
+      "p75_global_vel": 0.0718512311577797,
+      "mean_micro_ratio": 0.7737885498464799,
+      "mean_large_ratio": 0.1005347390158411
+    },
+    {
+      "major_gesture": "G12",
+      "windows": 211,
+      "median_global_vel": 0.0639839768409729,
+      "p75_global_vel": 0.07610204070806503,
+      "mean_micro_ratio": 0.7597578267689645,
+      "mean_large_ratio": 0.10608848212327632
+    },
+    {
+      "major_gesture": "G5",
+      "windows": 110,
+      "median_global_vel": 0.06415506824851036,
+      "p75_global_vel": 0.07318789139389992,
+      "mean_micro_ratio": 0.7636122796313543,
+      "mean_large_ratio": 0.10379724478982691
+    },
+    {
+      "major_gesture": "G13",
+      "windows": 83,
+      "median_global_vel": 0.06456400454044342,
+      "p75_global_vel": 0.07542017847299576,
+      "mean_micro_ratio": 0.7512299285449817,
+      "mean_large_ratio": 0.10988922131478936
+    }
+  ],
+  "lock_label_distribution": {
+    "LOCK_REQUIRED": 2527,
+    "NO_LOCK_REQUIRED": 1515
+  },
+  "split_meta": {
+    "train_windows": 4042,
+    "test_windows": 0,
+    "validation_windows": 4042,
+    "validation_surgeons": [
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I"
+    ],
+    "labels": [
+      "LOCK_REQUIRED",
+      "NO_LOCK_REQUIRED"
+    ],
+    "classification_report": {
+      "LOCK_REQUIRED": {
+        "precision": 0.8609934539853678,
+        "recall": 0.8848436881677879,
+        "f1-score": 0.8727556596409055,
+        "support": 2527.0
+      },
+      "NO_LOCK_REQUIRED": {
+        "precision": 0.7986159169550173,
+        "recall": 0.7617161716171618,
+        "f1-score": 0.7797297297297298,
+        "support": 1515.0
+      },
+      "accuracy": 0.838693715982187,
+      "macro avg": {
+        "precision": 0.8298046854701926,
+        "recall": 0.8232799298924749,
+        "f1-score": 0.8262426946853176,
+        "support": 4042.0
+      },
+      "weighted avg": {
+        "precision": 0.8376134518574656,
+        "recall": 0.838693715982187,
+        "f1-score": 0.837888197044312,
+        "support": 4042.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        2236,
+        291
+      ],
+      [
+        361,
+        1154
+      ]
+    ],
+    "candidate_scores": {
+      "extra_trees__394425": {
+        "model_name": "extra_trees",
+        "threshold": 0.41,
+        "macro_f1": 0.8085864845578161,
+        "accuracy": 0.8349826818406729,
+        "roc_auc": 0.8839937258466646,
+        "params": {
+          "n_estimators": 500,
+          "max_depth": null,
+          "min_samples_leaf": 2,
+          "min_samples_split": 2,
+          "max_features": "sqrt",
+          "random_state": 42
+        }
+      },
+      "extra_trees__7600380": {
+        "model_name": "extra_trees",
+        "threshold": 0.425,
+        "macro_f1": 0.8203870216122418,
+        "accuracy": 0.842899554675903,
+        "roc_auc": 0.8865629420084866,
+        "params": {
+          "random_state": 42,
+          "n_estimators": 1000,
+          "min_samples_split": 8,
+          "min_samples_leaf": 4,
+          "max_features": 0.6,
+          "max_depth": null
+        }
+      },
+      "extra_trees__2666871": {
+        "model_name": "extra_trees",
+        "threshold": 0.5149999999999999,
+        "macro_f1": 0.8190108368724747,
+        "accuracy": 0.8352300841167739,
+        "roc_auc": 0.8871135629589868,
+        "params": {
+          "random_state": 29,
+          "n_estimators": 1200,
+          "min_samples_split": 4,
+          "min_samples_leaf": 4,
+          "max_features": 0.8,
+          "max_depth": 40
+        }
+      },
+      "extra_trees__3759141": {
+        "model_name": "extra_trees",
+        "threshold": 0.48,
+        "macro_f1": 0.8192229065664889,
+        "accuracy": 0.8379515091538842,
+        "roc_auc": 0.8871399447028202,
+        "params": {
+          "random_state": 13,
+          "n_estimators": 1000,
+          "min_samples_split": 8,
+          "min_samples_leaf": 4,
+          "max_features": 0.6,
+          "max_depth": null
+        }
+      },
+      "extra_trees__1289655": {
+        "model_name": "extra_trees",
+        "threshold": 0.495,
+        "macro_f1": 0.8210691834838613,
+        "accuracy": 0.8394359228104898,
+        "roc_auc": 0.8863847999362658,
+        "params": {
+          "random_state": 29,
+          "n_estimators": 800,
+          "min_samples_split": 8,
+          "min_samples_leaf": 2,
+          "max_features": 0.6,
+          "max_depth": 40
+        }
+      },
+      "extra_trees__942648": {
+        "model_name": "extra_trees",
+        "threshold": 0.45499999999999996,
+        "macro_f1": 0.8091713850247003,
+        "accuracy": 0.8322612568035626,
+        "roc_auc": 0.883643710631451,
+        "params": {
+          "random_state": 42,
+          "n_estimators": 800,
+          "min_samples_split": 2,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "max_depth": 40
+        }
+      },
+      "extra_trees__3824910": {
+        "model_name": "extra_trees",
+        "threshold": 0.49999999999999994,
+        "macro_f1": 0.8169659711628902,
+        "accuracy": 0.8357248886689758,
+        "roc_auc": 0.8874933555880321,
+        "params": {
+          "random_state": 13,
+          "n_estimators": 1200,
+          "min_samples_split": 8,
+          "min_samples_leaf": 1,
+          "max_features": 0.6,
+          "max_depth": 24
+        }
+      },
+      "extra_trees__3501149": {
+        "model_name": "extra_trees",
+        "threshold": 0.48,
+        "macro_f1": 0.8167041829313655,
+        "accuracy": 0.838693715982187,
+        "roc_auc": 0.8875092891164856,
+        "params": {
+          "random_state": 29,
+          "n_estimators": 800,
+          "min_samples_split": 4,
+          "min_samples_leaf": 1,
+          "max_features": 0.8,
+          "max_depth": null
+        }
+      },
+      "extra_trees__9006137": {
+        "model_name": "extra_trees",
+        "threshold": 0.43999999999999995,
+        "macro_f1": 0.8095770631913655,
+        "accuracy": 0.8337456704601682,
+        "roc_auc": 0.883803307121373,
+        "params": {
+          "random_state": 42,
+          "n_estimators": 1200,
+          "min_samples_split": 2,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "max_depth": 24
+        }
+      },
+      "extra_trees__9225828": {
+        "model_name": "extra_trees",
+        "threshold": 0.5299999999999999,
+        "macro_f1": 0.8176679271021714,
+        "accuracy": 0.8357248886689758,
+        "roc_auc": 0.8864989466892871,
+        "params": {
+          "random_state": 13,
+          "n_estimators": 1200,
+          "min_samples_split": 4,
+          "min_samples_leaf": 1,
+          "max_features": 0.6,
+          "max_depth": 24
+        }
+      },
+      "extra_trees__4921057": {
+        "model_name": "extra_trees",
+        "threshold": 0.5149999999999999,
+        "macro_f1": 0.8126711260527502,
+        "accuracy": 0.8292924294903513,
+        "roc_auc": 0.8838602498951913,
+        "params": {
+          "random_state": 29,
+          "n_estimators": 500,
+          "min_samples_split": 2,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "max_depth": 40
+        }
+      },
+      "extra_trees__160119": {
+        "model_name": "extra_trees",
+        "threshold": 0.49,
+        "macro_f1": 0.8180435146348204,
+        "accuracy": 0.8357248886689758,
+        "roc_auc": 0.8856594325835432,
+        "params": {
+          "random_state": 42,
+          "n_estimators": 500,
+          "min_samples_split": 2,
+          "min_samples_leaf": 4,
+          "max_features": 0.8,
+          "max_depth": 40
+        }
+      },
+      "extra_trees__5390434": {
+        "model_name": "extra_trees",
+        "threshold": 0.49999999999999994,
+        "macro_f1": 0.8197509325328873,
+        "accuracy": 0.8369619000494805,
+        "roc_auc": 0.8868965012844776,
+        "params": {
+          "random_state": 13,
+          "n_estimators": 800,
+          "min_samples_split": 8,
+          "min_samples_leaf": 4,
+          "max_features": 0.6,
+          "max_depth": 40
+        }
+      },
+      "extra_trees__3281853": {
+        "model_name": "extra_trees",
+        "threshold": 0.47,
+        "macro_f1": 0.8163492231335048,
+        "accuracy": 0.8367144977733795,
+        "roc_auc": 0.8866245864792257,
+        "params": {
+          "random_state": 13,
+          "n_estimators": 1200,
+          "min_samples_split": 8,
+          "min_samples_leaf": 2,
+          "max_features": 0.8,
+          "max_depth": 40
+        }
+      },
+      "extra_trees__3065540": {
+        "model_name": "extra_trees",
+        "threshold": 0.47,
+        "macro_f1": 0.8072822512802569,
+        "accuracy": 0.8248391885205344,
+        "roc_auc": 0.8787273028846218,
+        "params": {
+          "random_state": 13,
+          "n_estimators": 500,
+          "min_samples_split": 8,
+          "min_samples_leaf": 2,
+          "max_features": "log2",
+          "max_depth": null
+        }
+      },
+      "xgboost__6728035": {
+        "model_name": "xgboost",
+        "threshold": 0.385,
+        "macro_f1": 0.8176198904244568,
+        "accuracy": 0.8352300841167739,
+        "roc_auc": 0.8922214342526458,
+        "params": {
+          "n_estimators": 800,
+          "max_depth": 6,
+          "learning_rate": 0.04,
+          "subsample": 0.9,
+          "colsample_bytree": 0.8,
+          "min_child_weight": 1.0,
+          "gamma": 0.0,
+          "reg_lambda": 1.0,
+          "reg_alpha": 0.0,
+          "random_state": 42
+        }
+      },
+      "xgboost__6915570": {
+        "model_name": "xgboost",
+        "threshold": 0.42,
+        "macro_f1": 0.8145927048298065,
+        "accuracy": 0.8320138545274617,
+        "roc_auc": 0.8941026354317267,
+        "params": {
+          "subsample": 1.0,
+          "reg_lambda": 2.0,
+          "reg_alpha": 0.0,
+          "random_state": 17,
+          "n_estimators": 300,
+          "min_child_weight": 1.0,
+          "max_depth": 5,
+          "learning_rate": 0.03,
+          "gamma": 0.1,
+          "colsample_bytree": 0.8
+        }
+      },
+      "xgboost__3963465": {
+        "model_name": "xgboost",
+        "threshold": 0.32999999999999996,
+        "macro_f1": 0.8170798907849587,
+        "accuracy": 0.8359722909450767,
+        "roc_auc": 0.8887568060327995,
+        "params": {
+          "subsample": 1.0,
+          "reg_lambda": 2.0,
+          "reg_alpha": 0.5,
+          "random_state": 42,
+          "n_estimators": 900,
+          "min_child_weight": 5.0,
+          "max_depth": 6,
+          "learning_rate": 0.05,
+          "gamma": 0.0,
+          "colsample_bytree": 0.6
+        }
+      },
+      "xgboost__3686757": {
+        "model_name": "xgboost",
+        "threshold": 0.415,
+        "macro_f1": 0.8169582026603223,
+        "accuracy": 0.8342404750123701,
+        "roc_auc": 0.8932720023090556,
+        "params": {
+          "subsample": 0.85,
+          "reg_lambda": 5.0,
+          "reg_alpha": 0.5,
+          "random_state": 17,
+          "n_estimators": 700,
+          "min_child_weight": 1.0,
+          "max_depth": 8,
+          "learning_rate": 0.07,
+          "gamma": 0.1,
+          "colsample_bytree": 0.6
+        }
+      },
+      "xgboost__3524387": {
+        "model_name": "xgboost",
+        "threshold": 0.355,
+        "macro_f1": 0.8201700298921641,
+        "accuracy": 0.8394359228104898,
+        "roc_auc": 0.8940062506448508,
+        "params": {
+          "subsample": 1.0,
+          "reg_lambda": 1.0,
+          "reg_alpha": 0.1,
+          "random_state": 31,
+          "n_estimators": 300,
+          "min_child_weight": 5.0,
+          "max_depth": 4,
+          "learning_rate": 0.05,
+          "gamma": 0.1,
+          "colsample_bytree": 0.6
+        }
+      },
+      "xgboost__614421": {
+        "model_name": "xgboost",
+        "threshold": 0.32,
+        "macro_f1": 0.8180650986882281,
+        "accuracy": 0.8377041068777833,
+        "roc_auc": 0.8924115917725528,
+        "params": {
+          "subsample": 0.7,
+          "reg_lambda": 1.0,
+          "reg_alpha": 0.0,
+          "random_state": 31,
+          "n_estimators": 500,
+          "min_child_weight": 1.0,
+          "max_depth": 8,
+          "learning_rate": 0.07,
+          "gamma": 0.1,
+          "colsample_bytree": 0.6
+        }
+      },
+      "xgboost__5675803": {
+        "model_name": "xgboost",
+        "threshold": 0.315,
+        "macro_f1": 0.8158360440274304,
+        "accuracy": 0.838693715982187,
+        "roc_auc": 0.8942721577262593,
+        "params": {
+          "subsample": 1.0,
+          "reg_lambda": 5.0,
+          "reg_alpha": 0.0,
+          "random_state": 31,
+          "n_estimators": 500,
+          "min_child_weight": 3.0,
+          "max_depth": 6,
+          "learning_rate": 0.02,
+          "gamma": 0.1,
+          "colsample_bytree": 0.8
+        }
+      },
+      "xgboost__7549324": {
+        "model_name": "xgboost",
+        "threshold": 0.41,
+        "macro_f1": 0.8148275892636795,
+        "accuracy": 0.8325086590796635,
+        "roc_auc": 0.8906680458310968,
+        "params": {
+          "subsample": 1.0,
+          "reg_lambda": 5.0,
+          "reg_alpha": 0.0,
+          "random_state": 42,
+          "n_estimators": 300,
+          "min_child_weight": 5.0,
+          "max_depth": 3,
+          "learning_rate": 0.05,
+          "gamma": 0.3,
+          "colsample_bytree": 0.8
+        }
+      },
+      "xgboost__6542305": {
+        "model_name": "xgboost",
+        "threshold": 0.38,
+        "macro_f1": 0.8191541762842354,
+        "accuracy": 0.838941118258288,
+        "roc_auc": 0.8919218316766382,
+        "params": {
+          "subsample": 1.0,
+          "reg_lambda": 2.0,
+          "reg_alpha": 0.1,
+          "random_state": 73,
+          "n_estimators": 300,
+          "min_child_weight": 5.0,
+          "max_depth": 5,
+          "learning_rate": 0.02,
+          "gamma": 0.0,
+          "colsample_bytree": 0.6
+        }
+      },
+      "xgboost__5279152": {
+        "model_name": "xgboost",
+        "threshold": 0.38999999999999996,
+        "macro_f1": 0.8134117408551953,
+        "accuracy": 0.8332508659079664,
+        "roc_auc": 0.8930021771468797,
+        "params": {
+          "subsample": 1.0,
+          "reg_lambda": 2.0,
+          "reg_alpha": 0.0,
+          "random_state": 73,
+          "n_estimators": 300,
+          "min_child_weight": 1.0,
+          "max_depth": 5,
+          "learning_rate": 0.02,
+          "gamma": 0.1,
+          "colsample_bytree": 0.8
+        }
+      },
+      "xgboost__6527109": {
+        "model_name": "xgboost",
+        "threshold": 0.40499999999999997,
+        "macro_f1": 0.8172738625581835,
+        "accuracy": 0.8359722909450767,
+        "roc_auc": 0.8933234597697997,
+        "params": {
+          "subsample": 0.85,
+          "reg_lambda": 5.0,
+          "reg_alpha": 0.0,
+          "random_state": 73,
+          "n_estimators": 300,
+          "min_child_weight": 1.0,
+          "max_depth": 8,
+          "learning_rate": 0.03,
+          "gamma": 0.0,
+          "colsample_bytree": 0.6
+        }
+      },
+      "xgboost__383179": {
+        "model_name": "xgboost",
+        "threshold": 0.305,
+        "macro_f1": 0.8178835741464985,
+        "accuracy": 0.8381989114299851,
+        "roc_auc": 0.8938565799595392,
+        "params": {
+          "subsample": 0.7,
+          "reg_lambda": 5.0,
+          "reg_alpha": 0.5,
+          "random_state": 17,
+          "n_estimators": 500,
+          "min_child_weight": 1.0,
+          "max_depth": 5,
+          "learning_rate": 0.07,
+          "gamma": 0.0,
+          "colsample_bytree": 1.0
+        }
+      },
+      "xgboost__6225156": {
+        "model_name": "xgboost",
+        "threshold": 0.32999999999999996,
+        "macro_f1": 0.8204429170421248,
+        "accuracy": 0.8409203364670955,
+        "roc_auc": 0.8955102712487315,
+        "params": {
+          "subsample": 0.7,
+          "reg_lambda": 5.0,
+          "reg_alpha": 0.0,
+          "random_state": 17,
+          "n_estimators": 700,
+          "min_child_weight": 1.0,
+          "max_depth": 6,
+          "learning_rate": 0.03,
+          "gamma": 0.3,
+          "colsample_bytree": 0.8
+        }
+      },
+      "xgboost__2633670": {
+        "model_name": "xgboost",
+        "threshold": 0.32499999999999996,
+        "macro_f1": 0.819080782368607,
+        "accuracy": 0.8396833250865908,
+        "roc_auc": 0.8943872186981262,
+        "params": {
+          "subsample": 0.85,
+          "reg_lambda": 2.0,
+          "reg_alpha": 0.5,
+          "random_state": 73,
+          "n_estimators": 300,
+          "min_child_weight": 3.0,
+          "max_depth": 5,
+          "learning_rate": 0.05,
+          "gamma": 0.0,
+          "colsample_bytree": 0.6
+        }
+      },
+      "xgboost__3431327": {
+        "model_name": "xgboost",
+        "threshold": 0.35,
+        "macro_f1": 0.8106731112903107,
+        "accuracy": 0.830529440870856,
+        "roc_auc": 0.8887723477531766,
+        "params": {
+          "subsample": 1.0,
+          "reg_lambda": 2.0,
+          "reg_alpha": 0.5,
+          "random_state": 17,
+          "n_estimators": 500,
+          "min_child_weight": 3.0,
+          "max_depth": 8,
+          "learning_rate": 0.07,
+          "gamma": 0.1,
+          "colsample_bytree": 1.0
+        }
+      },
+      "xgboost__3950728": {
+        "model_name": "xgboost",
+        "threshold": 0.3,
+        "macro_f1": 0.8184616111951588,
+        "accuracy": 0.8401781296387927,
+        "roc_auc": 0.8961507468514955,
+        "params": {
+          "subsample": 0.85,
+          "reg_lambda": 5.0,
+          "reg_alpha": 0.0,
+          "random_state": 31,
+          "n_estimators": 900,
+          "min_child_weight": 1.0,
+          "max_depth": 3,
+          "learning_rate": 0.03,
+          "gamma": 0.3,
+          "colsample_bytree": 0.6
+        }
+      },
+      "xgboost__2575077": {
+        "model_name": "xgboost",
+        "threshold": 0.38,
+        "macro_f1": 0.8156361843074473,
+        "accuracy": 0.8342404750123701,
+        "roc_auc": 0.8936818335573168,
+        "params": {
+          "subsample": 0.85,
+          "reg_lambda": 5.0,
+          "reg_alpha": 0.5,
+          "random_state": 42,
+          "n_estimators": 300,
+          "min_child_weight": 3.0,
+          "max_depth": 4,
+          "learning_rate": 0.05,
+          "gamma": 0.0,
+          "colsample_bytree": 0.6
+        }
+      },
+      "xgboost__6838199": {
+        "model_name": "xgboost",
+        "threshold": 0.42999999999999994,
+        "macro_f1": 0.8178644976534789,
+        "accuracy": 0.8342404750123701,
+        "roc_auc": 0.8951129778589256,
+        "params": {
+          "subsample": 0.85,
+          "reg_lambda": 5.0,
+          "reg_alpha": 0.5,
+          "random_state": 31,
+          "n_estimators": 300,
+          "min_child_weight": 1.0,
+          "max_depth": 5,
+          "learning_rate": 0.07,
+          "gamma": 0.0,
+          "colsample_bytree": 0.6
+        }
+      },
+      "xgboost__1584266": {
+        "model_name": "xgboost",
+        "threshold": 0.41,
+        "macro_f1": 0.8218637875930248,
+        "accuracy": 0.8381989114299851,
+        "roc_auc": 0.8943176074631602,
+        "params": {
+          "subsample": 0.7,
+          "reg_lambda": 2.0,
+          "reg_alpha": 0.0,
+          "random_state": 73,
+          "n_estimators": 900,
+          "min_child_weight": 3.0,
+          "max_depth": 6,
+          "learning_rate": 0.02,
+          "gamma": 0.3,
+          "colsample_bytree": 0.6
+        }
+      },
+      "random_forest__3771300": {
+        "model_name": "random_forest",
+        "threshold": 0.475,
+        "macro_f1": 0.8145760370084393,
+        "accuracy": 0.8325086590796635,
+        "roc_auc": 0.8823638042474606,
+        "params": {
+          "n_estimators": 500,
+          "max_depth": 22,
+          "min_samples_leaf": 2,
+          "min_samples_split": 2,
+          "max_features": "sqrt",
+          "random_state": 42
+        }
+      },
+      "random_forest__6439627": {
+        "model_name": "random_forest",
+        "threshold": 0.5449999999999999,
+        "macro_f1": 0.8061721948012535,
+        "accuracy": 0.8201385452746165,
+        "roc_auc": 0.886185761433286,
+        "params": {
+          "random_state": 42,
+          "n_estimators": 1000,
+          "min_samples_split": 2,
+          "min_samples_leaf": 4,
+          "max_features": 0.8,
+          "max_depth": 24
+        }
+      },
+      "random_forest__2529534": {
+        "model_name": "random_forest",
+        "threshold": 0.46499999999999997,
+        "macro_f1": 0.8098031268649333,
+        "accuracy": 0.8285502226620485,
+        "roc_auc": 0.8821498770375653,
+        "params": {
+          "random_state": 11,
+          "n_estimators": 800,
+          "min_samples_split": 2,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "max_depth": null
+        }
+      },
+      "random_forest__3242260": {
+        "model_name": "random_forest",
+        "threshold": 0.45999999999999996,
+        "macro_f1": 0.8127649944844628,
+        "accuracy": 0.8339930727362692,
+        "roc_auc": 0.8836472369041417,
+        "params": {
+          "random_state": 77,
+          "n_estimators": 800,
+          "min_samples_split": 2,
+          "min_samples_leaf": 1,
+          "max_features": "sqrt",
+          "max_depth": 32
+        }
+      },
+      "random_forest__1640575": {
+        "model_name": "random_forest",
+        "threshold": 0.42999999999999994,
+        "macro_f1": 0.8113330843913369,
+        "accuracy": 0.8312716476991588,
+        "roc_auc": 0.8812476736395445,
+        "params": {
+          "random_state": 42,
+          "n_estimators": 800,
+          "min_samples_split": 8,
+          "min_samples_leaf": 4,
+          "max_features": "sqrt",
+          "max_depth": 32
+        }
+      },
+      "random_forest__4027941": {
+        "model_name": "random_forest",
+        "threshold": 0.485,
+        "macro_f1": 0.8123055491061064,
+        "accuracy": 0.830776843146957,
+        "roc_auc": 0.8829972273048436,
+        "params": {
+          "random_state": 42,
+          "n_estimators": 800,
+          "min_samples_split": 4,
+          "min_samples_leaf": 1,
+          "max_features": "sqrt",
+          "max_depth": null
+        }
+      },
+      "random_forest__1810986": {
+        "model_name": "random_forest",
+        "threshold": 0.5349999999999999,
+        "macro_f1": 0.806897443247284,
+        "accuracy": 0.8233547748639287,
+        "roc_auc": 0.8871882676989505,
+        "params": {
+          "random_state": 77,
+          "n_estimators": 1000,
+          "min_samples_split": 8,
+          "min_samples_leaf": 1,
+          "max_features": 0.6,
+          "max_depth": 16
+        }
+      },
+      "group_cv_greedy_ensemble": {
+        "model_name": "ensemble",
+        "threshold": 0.425,
+        "macro_f1": 0.8242834994462902,
+        "accuracy": 0.8433943592281049,
+        "roc_auc": 0.8923695377056503,
+        "members": {
+          "xgboost__1584266": 2.0,
+          "extra_trees__1289655": 2.0,
+          "extra_trees__5390434": 1.0
+        }
+      }
+    },
+    "best_model_name": "group_cv_greedy_ensemble",
+    "best_single_model_name": "xgboost",
+    "selection_strategy": "train_only_group_cv_oof_then_full_refit_no_test_peek",
+    "validation_task_accuracy": {
+      "Knot_Tying": 1.0,
+      "Needle_Passing": 0.7946153846153846,
+      "Suturing": 0.8016486347243689
+    },
+    "test_task_accuracy": {
+      "Knot_Tying": 1.0,
+      "Needle_Passing": 0.7946153846153846,
+      "Suturing": 0.8016486347243689
+    },
+    "roc_auc_overall": 0.8923695377056503,
+    "validation_roc_auc_overall": 0.8923695377056503,
+    "roc_auc_by_task": {
+      "Needle_Passing": 0.7247303841147477,
+      "Suturing": 0.8045319353481944
+    },
+    "validation_roc_auc_by_task": {
+      "Needle_Passing": 0.7247303841147477,
+      "Suturing": 0.8045319353481944
+    },
+    "classification_threshold": 0.585,
+    "selected_candidate_ids": [
+      "xgboost__1584266",
+      "extra_trees__1289655",
+      "xgboost__1584266",
+      "extra_trees__5390434",
+      "extra_trees__1289655"
+    ],
+    "temporal_postprocess": {
+      "method": "ema",
+      "alpha": 0.6
+    }
+  },
+  "test_task_accuracy": {
+    "Knot_Tying": 1.0,
+    "Needle_Passing": 0.7946153846153846,
+    "Suturing": 0.8016486347243689
+  },
+  "decision_stats": {
+    "proba_lock_threshold": 0.58,
+    "stable_velocity_threshold": 0.05920456722378731,
+    "suggest_lock_ratio": 0.49356754082137555
+  },
+  "policy_summary": {
+    "need_lock_when": {
+      "global_vel_mean_leq": 0.05920456722378731,
+      "proba_lock_geq": 0.58,
+      "typical_micro_motion_ratio": 0.8340721106900065,
+      "typical_large_motion_ratio": 0.0725759116972934,
+      "clinical_interpretation": "精细操作阶段、姿态已收敛、动作以微调为主，建议锁定辅助支撑。"
+    },
+    "no_lock_when": {
+      "global_vel_mean_gt": 0.05920456722378731,
+      "or_proba_lock_lt": 0.58,
+      "typical_micro_motion_ratio": 0.7678351136149307,
+      "typical_large_motion_ratio": 0.10311434382785191,
+      "clinical_interpretation": "大幅重定位、手眼协同换位或动作不稳定阶段，不建议锁定。"
+    }
+  },
+  "feature_importance": {
+    "task_Knot_Tying": 0.26555538333555617,
+    "task_Needle_Passing": 0.04898727976274499,
+    "task_Suturing": 0.028276180146252522,
+    "dim_range_p10": 0.0275930540201274,
+    "dim_std_p10": 0.02466940082139083,
+    "dim_vel_mean_p10": 0.023338425458432,
+    "dim_std_p25": 0.020487321617778727,
+    "dim_acc_mean_p10": 0.012379875469660347,
+    "dim_range_p25": 0.011647145756629507,
+    "vel_acc_ratio": 0.00976403280771285,
+    "vel_energy_entropy": 0.007243290283450957,
+    "posture_abs_mean": 0.006494785526887181,
+    "acc_energy_entropy": 0.006352487928909818,
+    "dim_range_p75": 0.006199597505867886,
+    "left_vel_abs_max": 0.006187184791518847,
+    "dim_range_iqr": 0.0061233709831531825,
+    "left_vel_abs_p25": 0.0059699631513864,
+    "vel_early_mean": 0.005627034159480754,
+    "vel_abs_max": 0.0055136210170708706,
+    "vel_mid_mean": 0.0054401483434620024,
+    "right_vel_abs_p10": 0.005404931528335384,
+    "hand_vel_lead_lag1_corr": 0.005387378198451833,
+    "acc_abs_max": 0.005286167345954673,
+    "dim_vel_mean_p25": 0.005277972873448547,
+    "vel_abs_p25": 0.005242698172000415,
+    "vel_abs_p10": 0.0052036675105201855,
+    "right_acc_abs_p10": 0.005164821696456509,
+    "dim_acc_mean_iqr": 0.005127888602769806,
+    "p90_to_mean_vel": 0.005114158748560887,
+    "vel_late_minus_early": 0.005076171206870886,
+    "vel_trend_slope": 0.0050611461349702805,
+    "right_vel_abs_p25": 0.004882496220632231,
+    "dim_acc_mean_p75": 0.004768342974136087,
+    "jerk_abs_max": 0.0047042646641510515,
+    "vel_mid_peak_ratio": 0.004672659373778178,
+    "vel_temporal_entropy": 0.004648531605156885,
+    "left_acc_abs_max": 0.004605049778219803,
+    "dim_vel_mean_iqr": 0.0045367344261264,
+    "dim_std_max": 0.004468879804528495,
+    "dim_range_max": 0.0043791205897210795,
+    "left_vel_abs_p10": 0.004370915753031089,
+    "dim_vel_mean_max": 0.004339041908649814,
+    "acc_abs_p10": 0.004311193264992519,
+    "dim_std_iqr": 0.004231469402464045,
+    "dim_std_p95": 0.00416771222026322,
+    "right_acc_abs_p50": 0.00414936898713762,
+    "dim_std_p75": 0.00414278466766482,
+    "jerk_abs_std": 0.004058610512483038,
+    "dim_std_p90": 0.00405406836018133,
+    "left_vel_abs_p50": 0.003957484313388228,
+    "dim_range_mean": 0.003933776603499915,
+    "jerk_abs_p50": 0.0039200092759935756,
+    "right_acc_abs_max": 0.003910692207363134,
+    "hand_vel_lead_lagm1_corr": 0.003902932690436325,
+    "dim_std_p50": 0.003823366789927175,
+    "dim_vel_mean_p75": 0.0038227747613723924,
+    "dim_range_std": 0.003817031067086373,
+    "dim_acc_mean_max": 0.0037902075307069,
+    "posture_range_mean": 0.003766278428312101,
+    "dim_vel_mean_p50": 0.0037632486279469725,
+    "dim_acc_mean_p25": 0.0037543336597845103,
+    "acc_abs_std": 0.003722098930111605,
+    "dim_std_std": 0.0037037656996595806,
+    "range_entropy": 0.003702920777797248,
+    "right_acc_abs_p25": 0.003693334055300858,
+    "dim_range_p50": 0.003671163408021605,
+    "right_acc_abs_iqr": 0.0036521075024029707,
+    "right_acc_abs_p75": 0.003646042243468038,
+    "vel_late_mean": 0.003630846867844735,
+    "hand_vel_corr": 0.0036160437585532287,
+    "hand_sync_corr": 0.003599764753196255,
+    "left_vel_abs_std": 0.0035702597730511093,
+    "sync_weighted_micro": 0.0035625525387400513,
+    "acc_abs_iqr": 0.0035291972721247086,
+    "left_acc_abs_p75": 0.0034772701103499017,
+    "acc_abs_p90": 0.0034724295217024837,
+    "dim_vel_mean_p90": 0.003463881735392256,
+    "right_vel_abs_max": 0.00346231952725237,
+    "left_acc_abs_iqr": 0.0034557084755107146,
+    "dim_range_p95": 0.0034513545160527043,
+    "left_range_entropy": 0.0034355357513282656,
+    "jerk_abs_p10": 0.003426509957324355,
+    "large_motion_ratio": 0.003424454626289293,
+    "left_acc_abs_p10": 0.003414594628272664,
+    "dim_acc_mean_mean": 0.0033850525316632277,
+    "vel_abs_p95": 0.0033332104060079665,
+    "posture_std_mean": 0.0033145584321628762,
+    "dim_acc_mean_p50": 0.003308744307748393,
+    "hand_vel_absdiff_mean": 0.0032874934393481124,
+    "vel_temporal_std": 0.003280703491584119,
+    "left_acc_abs_p50": 0.0032714503982913096,
+    "right_range_entropy": 0.0032679999688438126,
+    "jerk_abs_p25": 0.003259166858242503,
+    "left_acc_abs_p90": 0.0032482193432454795,
+    "jerk_abs_p95": 0.0032415716119681545,
+    "acc_abs_p50": 0.003241085101030211,
+    "hand_vel_asymmetry": 0.0032380127550313198,
+    "acc_abs_p25": 0.0032129664311932316,
+    "global_acc_p90": 0.003212742969972212,
+    "stability_margin": 0.003186771971588593,
+    "jerk_abs_p75": 0.0031805590643757325,
+    "dim_std_mean": 0.0031779915589568836,
+    "right_acc_abs_p95": 0.00317597430114915,
+    "left_vel_abs_p75": 0.0031670125437431155,
+    "velocity_balance_ratio": 0.0031563994934145816,
+    "vel_abs_p75": 0.003154701130697731,
+    "dim_range_p90": 0.003147039982303464,
+    "left_vel_abs_iqr": 0.0031383522970309047,
+    "acc_abs_p75": 0.003137735810457346,
+    "right_vel_abs_p50": 0.003125476963193134,
+    "dim_acc_mean_std": 0.003115962670096114,
+    "left_acc_abs_std": 0.003115126907827662,
+    "right_vel_abs_p90": 0.003112550585301251,
+    "vel_abs_p50": 0.003094464831429837,
+    "jerk_abs_iqr": 0.0030892170180232383,
+    "right_vel_abs_iqr": 0.003059404220063749,
+    "left_vel_abs_p95": 0.00300524567898765,
+    "range_to_std_ratio": 0.0029936223140448115,
+    "left_acc_abs_mean": 0.0029916539687866637,
+    "left_vel_abs_p90": 0.0029848520405995316,
+    "vel_abs_std": 0.0029845308452720186,
+    "dim_vel_mean_std": 0.0029767348646929587,
+    "global_vel_p90": 0.0029747447569594,
+    "right_vel_abs_std": 0.002966790685316738,
+    "hand_energy_ratio": 0.0029547240280839867,
+    "dim_acc_mean_p95": 0.002944273174566928,
+    "left_acc_abs_p25": 0.0029383835355829514,
+    "left_acc_abs_p95": 0.0029140149125744625,
+    "micro_motion_ratio": 0.002899298246930078,
+    "global_vel_std": 0.0028985956924320816,
+    "right_vel_abs_p75": 0.0028916695937104284,
+    "vel_abs_iqr": 0.0028915420755156523,
+    "right_vel_abs_p95": 0.0028906536703484378,
+    "right_acc_abs_p90": 0.0028716593757609895,
+    "left_vel_mean": 0.0028715238127127772,
+    "dim_vel_mean_p95": 0.002858920154830442,
+    "global_vel_mean": 0.0028529946375104275,
+    "dim_acc_mean_p90": 0.0028445656764759524,
+    "global_acc_mean": 0.0027789230929481743,
+    "acc_abs_mean": 0.0026785164631048025,
+    "right_acc_abs_std": 0.002626765903971552,
+    "right_vel_abs_mean": 0.002623905605444113,
+    "left_vel_abs_mean": 0.002605035400120197,
+    "acc_abs_p95": 0.0025939530590602554,
+    "jerk_abs_p90": 0.0025797265196358986,
+    "vel_abs_mean": 0.00257454502411408,
+    "vel_abs_p90": 0.002561377088500326,
+    "right_acc_abs_mean": 0.0023936939775504196,
+    "right_vel_mean": 0.0023376083859310507,
+    "jerk_abs_mean": 0.0022748157898468315,
+    "bilateral_vel_sum": 0.0021900765975968557,
+    "dim_vel_mean_mean": 0.0017082306248351082,
+    "active_dim_ratio_vel_gt_p75": 0.0,
+    "vel_burst_ratio": 0.0
+  },
+  "best_model_name": "group_cv_greedy_ensemble",
+  "example_rules": [
+    "当模型锁定概率高且全局运动速度低，判为建议锁定。",
+    "当模型锁定概率不足或全局运动速度高，判为不建议锁定。",
+    "建议锁定多见于精细操作稳态；不建议锁定多见于换位与大运动阶段。"
+  ]
+}

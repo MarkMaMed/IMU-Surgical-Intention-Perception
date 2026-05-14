@@ -1,0 +1,75 @@
+[global]
+window_size = 128
+stride = 32
+majority_ratio = 0.6
+random_seed = 42
+test_size = 0.2
+max_windows_per_sequence = 1800
+
+[model]
+n_estimators = 320
+max_depth = 18
+min_samples_leaf = 1
+n_jobs = -1
+
+[output]
+model_path = "models/imu_intent_multidataset.joblib"
+metrics_path = "logs/imu_intent_metrics.json"
+
+[dataset.jigsaws]
+enabled = true
+root = "data/public_imu/JIGSAWS"
+sample_rate_hz = 30.0
+signal_column_indices = [0, 1, 2, 3, 4, 5]
+transcription_index_base = 0
+use_video_fallback = true
+warn_when_fallback = true
+video_glob = "**/video/*.avi"
+video_sample_every_n_frames = 5
+video_resize_width = 256
+video_resize_height = 192
+video_max_files = 24
+video_phase_prepare_ratio = 0.15
+intent_map = { G1 = "PREPARE_UNLOCK", G2 = "FINE_OPERATE", G3 = "FINE_OPERATE", G4 = "FINE_OPERATE", G5 = "PREPARE_UNLOCK", G6 = "FINE_OPERATE", G8 = "FINE_OPERATE", G9 = "PREPARE_UNLOCK", G10 = "PREPARE_UNLOCK", G11 = "PREPARE_UNLOCK" }
+
+[dataset.opportunity]
+enabled = true
+root = "data/public_imu/OpportunityUCIDataset/dataset"
+file_glob = "S*-*.dat"
+sample_rate_hz = 30.0
+signal_column_indices = [37, 38, 39, 40, 41, 42]
+label_column_index = 243
+intent_map = { "0" = "IDLE", "1" = "PREPARE_LOCK", "2" = "PREPARE_UNLOCK", "4" = "PREPARE_LOCK", "5" = "PREPARE_LOCK" }
+
+[dataset.ninapro]
+enabled = true
+root = "data/public_imu/NinaPro"
+file_glob = "**/*.mat"
+sample_rate_hz = 100.0
+signal_key_priority = ["acc", "inclinometer", "glove", "emg"]
+label_key_priority = ["restimulus", "stimulus", "label"]
+signal_column_indices = [0, 1, 2, 3, 4, 5]
+default_intent = "IDLE"
+intent_ranges = [
+  { start = 0, end = 0, intent = "PREPARE_LOCK" },
+  { start = 1, end = 17, intent = "FINE_OPERATE" },
+  { start = 18, end = 60, intent = "PREPARE_UNLOCK" },
+]
+
+[dataset.pamap2]
+enabled = true
+root = "data/public_imu/PAMAP2_Dataset/Protocol"
+file_glob = "subject*.csv"
+sample_rate_hz = 100.0
+signal_column_indices = [7, 8, 9, 10, 11, 12]
+label_column_index = 1
+signal_column_names = [
+  "IMU_hand_acceleration_16g_1",
+  "IMU_hand_acceleration_16g_2",
+  "IMU_hand_acceleration_16g_3",
+  "IMU_hand_gyroscope_1",
+  "IMU_hand_gyroscope_2",
+  "IMU_hand_gyroscope_3",
+]
+label_column_name = "activityID"
+intent_map = { "0" = "IDLE", "1" = "PREPARE_LOCK", "2" = "PREPARE_LOCK", "3" = "PREPARE_LOCK", "4" = "PREPARE_UNLOCK", "5" = "PREPARE_UNLOCK", "6" = "PREPARE_UNLOCK", "7" = "PREPARE_UNLOCK", "9" = "PREPARE_LOCK", "10" = "PREPARE_LOCK", "11" = "PREPARE_LOCK", "12" = "PREPARE_UNLOCK", "13" = "PREPARE_UNLOCK", "16" = "FINE_OPERATE", "17" = "FINE_OPERATE", "18" = "FINE_OPERATE", "19" = "FINE_OPERATE", "20" = "PREPARE_UNLOCK", "24" = "PREPARE_UNLOCK" }

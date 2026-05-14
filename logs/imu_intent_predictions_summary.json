@@ -1,0 +1,11 @@
+{
+  "input": "demo/mock_imu_stream.csv",
+  "window_size": 128,
+  "stride": 32,
+  "prediction_count": 43,
+  "intent_count": {
+    "PREPARE_LOCK": 18,
+    "FINE_OPERATE": 12,
+    "PREPARE_UNLOCK": 13
+  }
+}

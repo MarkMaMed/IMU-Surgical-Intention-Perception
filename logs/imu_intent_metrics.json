@@ -1,0 +1,67 @@
+{
+  "loaded_sequences": 2,
+  "window_count": 76,
+  "class_distribution": {
+    "PREPARE_LOCK": 28,
+    "FINE_OPERATE": 22,
+    "PREPARE_UNLOCK": 26
+  },
+  "labels": [
+    "FINE_OPERATE",
+    "PREPARE_LOCK",
+    "PREPARE_UNLOCK"
+  ],
+  "classification_report": {
+    "FINE_OPERATE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5.0
+    },
+    "PREPARE_LOCK": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "PREPARE_UNLOCK": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 16.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 16.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      5
+    ]
+  ],
+  "dataset_accuracy": {
+    "SYNTHETIC": 1.0
+  }
+}

@@ -1,0 +1,5 @@
+Suturing_I001_000001_004310.txt           14
+Suturing_I002_000001_004412.txt           19
+Suturing_I003_000139_004284.txt           13
+Suturing_I004_000001_003730.txt           19
+Suturing_I005_000073_003773.txt           16
