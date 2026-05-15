@@ -64,7 +64,7 @@ python3 -m eval.build_visual_gallery --plots-dir plots --output plots/gallery.ht
 增强版说明：
 - 使用 151 个可解释运动学特征（速度/加速度/jerk 分布、双手协同、时间形态与能量熵）
 - 引入手术任务上下文（`Knot_Tying` / `Needle_Passing` / `Suturing`）
-- 自动比较 `RandomForest`、`ExtraTrees`、`XGBoost`，并做分组交叉验证下的贪心集成
+- 自动比较 `RandomForest`、`ExtraTrees`、`XGBoost`，并做分组交叉验证下的取交集
 - 在不看测试集的前提下，仅用训练集做术者分组 OOF 选择，再用全数据重拟合部署模型
 - 当前严格 OOF 结果：Accuracy `0.8417`，Macro-F1 `0.8266`，ROC-AUC `0.8958`
 - 当前自动选中方案：`XGBoost + ExtraTrees` 贪心集成，叠加因果 `EMA(alpha=0.75)` 时序平滑
